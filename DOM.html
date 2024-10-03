@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    
+
+
+
+</head>
+<body>
+  
+<h1 id="tittle" >
+    JS DOM
+</h1>
+<p  id="text" class = "pharagaraph">
+    Testing
+</p>
+<a id="myLink" href="google.com">google</a>
+
+<button>
+    Press here 
+</button>
+
+
+
+
+<script>
+    let tittleElement = document.getElementById("tittle");
+    console.log(tittleElement.innerHTML);
+
+    tittleElement.innerHTML = "new one"
+    console.log(tittleElement.innerHTML);
+
+   let Paragraph = document.getElementsByClassName("paragraph");
+
+  
+   let textlist = document.getElementsByTagName("p")
+
+   console.log(textlist);
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
